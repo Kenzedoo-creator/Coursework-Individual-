@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_CT-uoJ3nEfChdJkPUJ1Kww" type="UseCase" name="Diagram name" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_H_QPYJ3nEfChdJkPUJ1Kww" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_H_qfEJ3nEfChdJkPUJ1Kww" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H_qfEZ3nEfChdJkPUJ1Kww" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H_qfEp3nEfChdJkPUJ1Kww" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H_qfE53nEfChdJkPUJ1Kww" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H_qfFJ3nEfChdJkPUJ1Kww" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H_qfFZ3nEfChdJkPUJ1Kww" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_H_qfFp3nEfChdJkPUJ1Kww" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_H_rGIJ3nEfChdJkPUJ1Kww" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="Practical%20Exercises%20.uml#_H_GeYJ3nEfChdJkPUJ1Kww"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_H_QPYZ3nEfChdJkPUJ1Kww" x="180" y="120" width="201" height="141"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_CT-uoZ3nEfChdJkPUJ1Kww" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_CT-uop3nEfChdJkPUJ1Kww"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_CT-uo53nEfChdJkPUJ1Kww" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="Practical%20Exercises%20.uml#_zefhEJ3mEfChdJkPUJ1Kww"/>
+  </styles>
+  <element xmi:type="uml:Model" href="Practical%20Exercises%20.uml#_zefhEJ3mEfChdJkPUJ1Kww"/>
+</notation:Diagram>
