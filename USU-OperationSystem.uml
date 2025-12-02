@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_BzCDoM89EfCMCNW1p2cpvA" name="USU-OperationSystem">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_CAvvgM89EfCMCNW1p2cpvA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_I84bMM89EfCMCNW1p2cpvA" name="USU Officer"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_UdQHEM89EfCMCNW1p2cpvA" name="USU Operation System" useCase="_jl46IM89EfCMCNW1p2cpvA _obFugM89EfCMCNW1p2cpvA _ol6ecM89EfCMCNW1p2cpvA _rnxs8M89EfCMCNW1p2cpvA _rzB6sM89EfCMCNW1p2cpvA _srw5gM89EfCMCNW1p2cpvA _s5InIM89EfCMCNW1p2cpvA _tHDHUM89EfCMCNW1p2cpvA _uPZ2gM89EfCMCNW1p2cpvA _u4eosM89EfCMCNW1p2cpvA" classifierBehavior="_ndExoM8-EfCMCNW1p2cpvA">
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_jl46IM89EfCMCNW1p2cpvA" name="Review Union Membership Application" subject="_UdQHEM89EfCMCNW1p2cpvA">
+      <include xmi:type="uml:Include" xmi:id="_Z7gqEM8-EfCMCNW1p2cpvA" addition="_obFugM89EfCMCNW1p2cpvA"/>
+      <include xmi:type="uml:Include" xmi:id="_aZNSsM8-EfCMCNW1p2cpvA" addition="_ol6ecM89EfCMCNW1p2cpvA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_obFugM89EfCMCNW1p2cpvA" name="Approve Membership" subject="_UdQHEM89EfCMCNW1p2cpvA">
+      <extend xmi:type="uml:Extend" xmi:id="_as8uEM8-EfCMCNW1p2cpvA" extendedCase="_rnxs8M89EfCMCNW1p2cpvA" extensionLocation="_as98MM8-EfCMCNW1p2cpvA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_ol6ecM89EfCMCNW1p2cpvA" name="Reject Membership" subject="_UdQHEM89EfCMCNW1p2cpvA">
+      <extend xmi:type="uml:Extend" xmi:id="_bBA5kM8-EfCMCNW1p2cpvA" extendedCase="_rzB6sM89EfCMCNW1p2cpvA" extensionLocation="_bBBgoM8-EfCMCNW1p2cpvA"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_pofVwM89EfCMCNW1p2cpvA" name="CopyOf_UseCase3_3"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_qLzeMM89EfCMCNW1p2cpvA" name="CopyOf_UseCase3_4"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_rnxs8M89EfCMCNW1p2cpvA" name="Request Additional Information" subject="_UdQHEM89EfCMCNW1p2cpvA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_as98MM8-EfCMCNW1p2cpvA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_rzB6sM89EfCMCNW1p2cpvA" name="Provide Detailed Rejection Reasons" subject="_UdQHEM89EfCMCNW1p2cpvA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_bBBgoM8-EfCMCNW1p2cpvA" name="ExtensionPoint1"/>
+    </ownedUseCase>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_srw5gM89EfCMCNW1p2cpvA" name="Update Union Registration Data " subject="_UdQHEM89EfCMCNW1p2cpvA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_s5InIM89EfCMCNW1p2cpvA" name="Process Membership Termination Request" subject="_UdQHEM89EfCMCNW1p2cpvA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tHDHUM89EfCMCNW1p2cpvA" name="Review Union Update Request" subject="_UdQHEM89EfCMCNW1p2cpvA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_uPZ2gM89EfCMCNW1p2cpvA" name="Generate Membership Reports" subject="_UdQHEM89EfCMCNW1p2cpvA"/>
+    <ownedUseCase xmi:type="uml:UseCase" xmi:id="_u4eosM89EfCMCNW1p2cpvA" name="Configure System Settings" subject="_UdQHEM89EfCMCNW1p2cpvA"/>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_ndExoM8-EfCMCNW1p2cpvA" name="USU Operation System" node="_PVIr0M8_EfCMCNW1p2cpvA _14QzYM8_EfCMCNW1p2cpvA _3gxCQM8_EfCMCNW1p2cpvA _-TkWUM9AEfCMCNW1p2cpvA _-i6Z4M9AEfCMCNW1p2cpvA __bNT0M9AEfCMCNW1p2cpvA _YlkqgM9BEfCMCNW1p2cpvA _dDdLEM9BEfCMCNW1p2cpvA _dZKVUM9BEfCMCNW1p2cpvA _JK_9cM9CEfCMCNW1p2cpvA _Je5J0M9CEfCMCNW1p2cpvA _TRr5kM9CEfCMCNW1p2cpvA _Vm5dcM9CEfCMCNW1p2cpvA _iAyyUM9CEfCMCNW1p2cpvA _iNDssM9CEfCMCNW1p2cpvA _mEyMMM9CEfCMCNW1p2cpvA _rmchIM9GEfCMCNW1p2cpvA _ZoA6wM9IEfCMCNW1p2cpvA" group="_ImFZ4M8_EfCMCNW1p2cpvA _I390EM8_EfCMCNW1p2cpvA _JCr2UM8_EfCMCNW1p2cpvA">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_1iDvUM8-EfCMCNW1p2cpvA" name="USU Officer"/>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_A6iDcM8_EfCMCNW1p2cpvA" name="CopyOf_USU Officer_1">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_A6iDcc8_EfCMCNW1p2cpvA" name="USU Officer"/>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_CBtG4M8_EfCMCNW1p2cpvA" name="CopyOf_USU Officer_2">
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_CBtG4c8_EfCMCNW1p2cpvA" name="USU Officer"/>
+        <ownedBehavior xmi:type="uml:Activity" xmi:id="_CBtG4s8_EfCMCNW1p2cpvA" name="CopyOf_USU Officer_1">
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_CBtG488_EfCMCNW1p2cpvA" name="USU Officer"/>
+        </ownedBehavior>
+      </ownedBehavior>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_ia_3gM9BEfCMCNW1p2cpvA" name="Yes" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_dDdLEM9BEfCMCNW1p2cpvA" source="_YlkqgM9BEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_lATF0M9BEfCMCNW1p2cpvA" name="No" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_dZKVUM9BEfCMCNW1p2cpvA" source="_YlkqgM9BEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_UUx40M9DEfCMCNW1p2cpvA" inPartition="_ImFZ4M8_EfCMCNW1p2cpvA" target="_14QzYM8_EfCMCNW1p2cpvA" source="_PVIr0M8_EfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_J4o0oM9EEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_iNDssM9CEfCMCNW1p2cpvA" source="_iAyyUM9CEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_KRR-IM9EEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_mEyMMM9CEfCMCNW1p2cpvA" source="_iNDssM9CEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_EV9ZwM9FEfCMCNW1p2cpvA" inPartition="_ImFZ4M8_EfCMCNW1p2cpvA" target="_3gxCQM8_EfCMCNW1p2cpvA" source="_14QzYM8_EfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_8qAIwM9GEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_ZoA6wM9IEfCMCNW1p2cpvA" source="_Je5J0M9CEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_-FLGQM9GEfCMCNW1p2cpvA" name="No" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_Je5J0M9CEfCMCNW1p2cpvA" source="_rmchIM9GEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="__XXG4M9GEfCMCNW1p2cpvA" name="yes" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_JK_9cM9CEfCMCNW1p2cpvA" source="_rmchIM9GEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_XRhZ8M9HEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_rmchIM9GEfCMCNW1p2cpvA" source="_dDdLEM9BEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_aDMQUM9HEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_rmchIM9GEfCMCNW1p2cpvA" source="_dZKVUM9BEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_b4SwwM9HEfCMCNW1p2cpvA" target="_TRr5kM9CEfCMCNW1p2cpvA" source="_JK_9cM9CEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_rr2wIM9HEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_YlkqgM9BEfCMCNW1p2cpvA" source="__bNT0M9AEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_N_nUQM9IEfCMCNW1p2cpvA" target="_-TkWUM9AEfCMCNW1p2cpvA" source="_3gxCQM8_EfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_Q409EM9IEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_-i6Z4M9AEfCMCNW1p2cpvA" source="_-TkWUM9AEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_R_kisM9IEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="__bNT0M9AEfCMCNW1p2cpvA" source="_-i6Z4M9AEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_a4CYMM9IEfCMCNW1p2cpvA" target="_ZoA6wM9IEfCMCNW1p2cpvA" source="_Vm5dcM9CEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_cXQIMM9IEfCMCNW1p2cpvA" inPartition="_JCr2UM8_EfCMCNW1p2cpvA" target="_Vm5dcM9CEfCMCNW1p2cpvA" source="_TRr5kM9CEfCMCNW1p2cpvA"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_e0HMMM9IEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA" target="_iAyyUM9CEfCMCNW1p2cpvA" source="_ZoA6wM9IEfCMCNW1p2cpvA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_ImFZ4M8_EfCMCNW1p2cpvA" name="USU Officer" node="_PVIr0M8_EfCMCNW1p2cpvA _14QzYM8_EfCMCNW1p2cpvA _3gxCQM8_EfCMCNW1p2cpvA" edge="_UUx40M9DEfCMCNW1p2cpvA _EV9ZwM9FEfCMCNW1p2cpvA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_I390EM8_EfCMCNW1p2cpvA" name="USU System" node="_-TkWUM9AEfCMCNW1p2cpvA _-i6Z4M9AEfCMCNW1p2cpvA __bNT0M9AEfCMCNW1p2cpvA _YlkqgM9BEfCMCNW1p2cpvA _JK_9cM9CEfCMCNW1p2cpvA _Je5J0M9CEfCMCNW1p2cpvA _iNDssM9CEfCMCNW1p2cpvA _mEyMMM9CEfCMCNW1p2cpvA _dDdLEM9BEfCMCNW1p2cpvA _dZKVUM9BEfCMCNW1p2cpvA _rmchIM9GEfCMCNW1p2cpvA _iAyyUM9CEfCMCNW1p2cpvA _ZoA6wM9IEfCMCNW1p2cpvA" edge="_ia_3gM9BEfCMCNW1p2cpvA _lATF0M9BEfCMCNW1p2cpvA _J4o0oM9EEfCMCNW1p2cpvA _KRR-IM9EEfCMCNW1p2cpvA _-FLGQM9GEfCMCNW1p2cpvA __XXG4M9GEfCMCNW1p2cpvA _XRhZ8M9HEfCMCNW1p2cpvA _aDMQUM9HEfCMCNW1p2cpvA _rr2wIM9HEfCMCNW1p2cpvA _Q409EM9IEfCMCNW1p2cpvA _R_kisM9IEfCMCNW1p2cpvA _8qAIwM9GEfCMCNW1p2cpvA _e0HMMM9IEfCMCNW1p2cpvA"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_JCr2UM8_EfCMCNW1p2cpvA" name="Validation Service" node="_TRr5kM9CEfCMCNW1p2cpvA _Vm5dcM9CEfCMCNW1p2cpvA" edge="_cXQIMM9IEfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_PVIr0M8_EfCMCNW1p2cpvA" name="Start" outgoing="_UUx40M9DEfCMCNW1p2cpvA" inPartition="_ImFZ4M8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_14QzYM8_EfCMCNW1p2cpvA" name="Login to System" incoming="_UUx40M9DEfCMCNW1p2cpvA" outgoing="_EV9ZwM9FEfCMCNW1p2cpvA" inPartition="_ImFZ4M8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_3gxCQM8_EfCMCNW1p2cpvA" name="Select Application for Review" incoming="_EV9ZwM9FEfCMCNW1p2cpvA" outgoing="_N_nUQM9IEfCMCNW1p2cpvA" inPartition="_ImFZ4M8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_-TkWUM9AEfCMCNW1p2cpvA" name="Display Pending Applications " incoming="_N_nUQM9IEfCMCNW1p2cpvA" outgoing="_Q409EM9IEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_-i6Z4M9AEfCMCNW1p2cpvA" name="Load Application Details" incoming="_Q409EM9IEfCMCNW1p2cpvA" outgoing="_R_kisM9IEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="__bNT0M9AEfCMCNW1p2cpvA" name="Show Complete Information" incoming="_R_kisM9IEfCMCNW1p2cpvA" outgoing="_rr2wIM9HEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_YlkqgM9BEfCMCNW1p2cpvA" name="[Data Complete?]" incoming="_rr2wIM9HEfCMCNW1p2cpvA" outgoing="_ia_3gM9BEfCMCNW1p2cpvA _lATF0M9BEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_dDdLEM9BEfCMCNW1p2cpvA" name="Proceed" incoming="_ia_3gM9BEfCMCNW1p2cpvA" outgoing="_XRhZ8M9HEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_dZKVUM9BEfCMCNW1p2cpvA" name="Request More Information" incoming="_lATF0M9BEfCMCNW1p2cpvA" outgoing="_aDMQUM9HEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_JK_9cM9CEfCMCNW1p2cpvA" name="Create Tenant Account" incoming="__XXG4M9GEfCMCNW1p2cpvA" outgoing="_b4SwwM9HEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_Je5J0M9CEfCMCNW1p2cpvA" name="Send Rejection Notice" incoming="_-FLGQM9GEfCMCNW1p2cpvA" outgoing="_8qAIwM9GEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_TRr5kM9CEfCMCNW1p2cpvA" name="Validate University Data " incoming="_b4SwwM9HEfCMCNW1p2cpvA" outgoing="_cXQIMM9IEfCMCNW1p2cpvA" inPartition="_JCr2UM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_Vm5dcM9CEfCMCNW1p2cpvA" name="Return Validation Result" incoming="_cXQIMM9IEfCMCNW1p2cpvA" outgoing="_a4CYMM9IEfCMCNW1p2cpvA" inPartition="_JCr2UM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iAyyUM9CEfCMCNW1p2cpvA" name="Update Database" incoming="_e0HMMM9IEfCMCNW1p2cpvA" outgoing="_J4o0oM9EEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:OpaqueAction" xmi:id="_iNDssM9CEfCMCNW1p2cpvA" name="Send Notification" incoming="_J4o0oM9EEfCMCNW1p2cpvA" outgoing="_KRR-IM9EEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:ActivityFinalNode" xmi:id="_mEyMMM9CEfCMCNW1p2cpvA" name="End" incoming="_KRR-IM9EEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_rmchIM9GEfCMCNW1p2cpvA" name="[Approve?]" incoming="_XRhZ8M9HEfCMCNW1p2cpvA _aDMQUM9HEfCMCNW1p2cpvA" outgoing="_-FLGQM9GEfCMCNW1p2cpvA __XXG4M9GEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+      <node xmi:type="uml:MergeNode" xmi:id="_ZoA6wM9IEfCMCNW1p2cpvA" name="Merge" incoming="_8qAIwM9GEfCMCNW1p2cpvA _a4CYMM9IEfCMCNW1p2cpvA" outgoing="_e0HMMM9IEfCMCNW1p2cpvA" inPartition="_I390EM8_EfCMCNW1p2cpvA"/>
+    </ownedBehavior>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_L7GqYM8-EfCMCNW1p2cpvA" client="_I84bMM89EfCMCNW1p2cpvA" supplier="_UdQHEM89EfCMCNW1p2cpvA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_N4fkIM8-EfCMCNW1p2cpvA" client="_I84bMM89EfCMCNW1p2cpvA" supplier="_jl46IM89EfCMCNW1p2cpvA"/>
+</uml:Model>
